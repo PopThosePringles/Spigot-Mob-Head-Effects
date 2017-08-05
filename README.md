@@ -106,7 +106,7 @@ I took care in considering performance with this plugin.  The way the plugin wor
 
 - Player Join
 
-  When the player joins the server, it checks to see if the effects should still get applied or not.  This does the same checks as above.  The reason for this is to catch a few conditions where the head couple be took off and placed inside the inventory then the server restarts.  Next time the player joins, they would still have the effect applied without having the head on.  So this covers that condition.
+  When the player joins the server, it checks to see if the effects should still get applied or not.  This does the same checks as above.  The reason for this is to catch a few conditions where the head could be took off and placed inside the inventory then the server restarts.  Next time the player joins, they would still have the effect applied without having the head on.  So this covers that condition.
   
 Dispenses are not supported.  They will add a head to the helmet slow, but the effects will not get applied until the player rejoins the server, or they open and close their inventory.  Not many people use dispenses for this, though I may consider supporting them if it's really needed.
 
