@@ -1,0 +1,28 @@
+# Here you can list the lore to be searched for on a skull and apply the effects.
+# The lore to match must be on line 1 (set in the JSON file for your loot table).
+# The effects can be any status effect: https://minecraft.gamepedia.com/Status_effect
+# Multiple effects can be added by separating them by a comma (i.e "haste, speed").
+
+# Below are some examples
+
+heads:
+
+  # Squid
+  -
+    lore: Look Mum, I'm A Squid
+    effects: water breathing
+
+  # Ocelot
+  -
+    lore: Cat Eyes
+    effects: night vision
+
+  # Blaze
+  -
+    lore: Toasty
+    effects: fire resistance
+
+  # Rabbit
+  -
+    lore: Jump For The Stars
+    effects: jump boost
