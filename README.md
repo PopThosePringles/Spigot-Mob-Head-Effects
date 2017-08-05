@@ -1,10 +1,10 @@
-##Spigot - Mob Head Effects
+# Spigot - Mob Head Effects
 
 This plugin will apply effects to players when they wear certain mob heads.
 
 By adding line 1 lore to a mob head, you can set which effects get applied to the player when they wear it.
 
-###Example:
+### Example:
 
 In the loot table, you can include a lore entry when setting the NBT data.
 
@@ -94,7 +94,7 @@ Here is a video of it in action...
 
 https://www.youtube.com/watch?v=7h68WX4zvvg
 
-####Additional Notes:
+#### Additional Notes:
 
 I took care in considering performance with this plugin.  The way the plugin works, is it looks to see what item is in the helmet slot.  It only does this check using 2 events.  Hopefully this should be good enough to apply and remove the effects correctly.
 
@@ -110,11 +110,11 @@ Dispenses are not supported.  They will add a head to the helmet slow, but the e
 
 I took care to not remove effects that are applied by other means.  The effects added by this plugin have the duration set to the max integer value.  A simple check is done to make sure we are removing effects that are using a long duration.  That way if a player has night vision from a head, and fire resistance from a potion, then it will not remove the fire resistance effect when the head is removed.
 
-####Config.yml
+#### Config.yml
 
 The config contains a few working examples for Blaze, Rabbit, Squid, and Ocelots.  These will not work until you add the lore to the NBT data in your loot tables (see video or above code for example)
 
-####Mob Heads
+#### Mob Heads
 
 These mob heads come from Xisuma and his team, you can find all the info on his website with download and instructions.
 
