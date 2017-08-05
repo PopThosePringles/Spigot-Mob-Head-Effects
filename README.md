@@ -4,6 +4,8 @@ This plugin will apply effects to players when they wear certain mob heads.
 
 By adding line 1 lore to a mob head, you can set which effects get applied to the player when they wear it.
 
+Download from the release page: https://github.com/PopThosePringles/Spigot-Mob-Head-Effects/releases
+
 ### Example:
 
 In the loot table, you can include a lore entry when setting the NBT data.
