@@ -1,4 +1,4 @@
-#Spigot - Mob Head Effects
+##Spigot - Mob Head Effects
 
 This plugin will apply effects to players when they wear certain mob heads.
 
